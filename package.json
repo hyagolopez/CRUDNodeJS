@@ -1,0 +1,28 @@
+{
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "CRUD em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyagolopez/CRUDNodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyagolopez/CRUDNodeJS/issues"
+  },
+  "homepage": "https://github.com/hyagolopez/CRUDNodeJS#readme",
+  "dependencies": {
+    "knex": "^0.20.8",
+    "mysql": "^2.18.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
