@@ -5,13 +5,14 @@ const server = restify.createServer({
   version: '1.0.0'
 });
 
+//Conexão com Banco de Dados
 const knex = require('knex')({
     client: 'mysql',
     connection: {
-      host : 'pwcspfbyl73eccbn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-      user : 'ezevy4x0oj3n9pvn',
-      password : 'us4rqjrlzju5as7d',
-      database : 'dpfpwiqnzz2ig54d'
+      host : '127.0.0.1',
+      user : 'your_database_user',
+      password : 'your_database_password',
+      database : 'myapp_test'
     }
   });
 
