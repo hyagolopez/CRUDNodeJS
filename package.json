@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/hyagolopez/CRUDNodeJS#readme",
   "dependencies": {
-    "knex": "^0.20.8",
+    "knex": "^2.4.0",
     "mysql": "^2.18.0",
     "restify": "^8.5.1",
     "restify-errors": "^8.0.2"
